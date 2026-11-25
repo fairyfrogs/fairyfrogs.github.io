@@ -1,0 +1,8 @@
+FAIRY FROGS – GRÜNES THEME-UPDATE
+
+Diese Version wurde nachträglich auf ein grüneres Fairy-Frogs-Farbschema angepasst.
+Außerdem wurde das bereitgestellte Logo in die Website eingebunden (Navigation + Startseite).
+
+Hinweis:
+- Bestehende Funktionen wurden beibehalten, soweit ohne Backend-Zugang möglich.
+- Verschlüsselte/private Bereiche konnten nicht live getestet werden.

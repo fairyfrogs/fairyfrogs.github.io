@@ -16,7 +16,7 @@
     if(!page)return;
     target.append(node('div','pl-page-ornament','✦  ☾  ✦'));
     if(page.kind==='intro'){
-      target.append(node('div','pl-book-small','PLATINO LADIES'));
+      target.append(node('div','pl-book-small','FAIRY FROGS'));
       target.append(node('h3','pl-book-title','Unser Gästebuch'));
       target.append(node('div','pl-book-moon','☽ ✧ ☾'));
       target.append(node('p','pl-book-intro','Jede Begegnung hinterlässt einen Funken Magie. Hier bewahren wir eure lieben Worte und Erinnerungen.'));
@@ -32,7 +32,7 @@
     } else {
       target.append(node('div','pl-book-small','✒ DEINE SEITE'));
       target.append(node('h3','pl-entry-name','Schreib uns!'));
-      target.append(node('p','pl-form-intro','Hinterlasse einen Gruß für die Platino Ladies. Nach Freigabe bekommt er seine eigene Buchseite.'));
+      target.append(node('p','pl-form-intro','Hinterlasse einen Gruß für die Fairy Frogs. Nach Freigabe bekommt er seine eigene Buchseite.'));
       target.append(form);
     }
     target.append(node('div','pl-page-number',String(index+1)));
