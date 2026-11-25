@@ -1,13 +1,13 @@
-#pl-login[hidden],#pl-dashboard[hidden]{display:none!important}.pl-panel{max-width:1050px;margin:24px auto;padding:clamp(20px,4vw,38px)}#pl-login{max-width:530px}#pl-login-form{display:grid;gap:16px}#pl-login-form label{display:grid;gap:8px}#pl-login-form input{width:100%;padding:13px;border-radius:12px;border:1px solid #90a6af;background:#e1e9ec;color:#ffffff}.pl-head,.pl-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.pl-application{padding:22px;margin:18px 0;border:1px solid #a1b7c0;border-radius:16px;background:rgba(60,34,80,.24)}.pl-application h3{margin:0 0 10px}.pl-application dl{display:grid;grid-template-columns:minmax(110px,180px) 1fr;gap:9px 16px;overflow-wrap:anywhere}.pl-application dt{opacity:.75}.pl-application dd{margin:0;white-space:pre-wrap}.pl-application .pl-actions{justify-content:flex-start}.pl-status{min-height:1.5em}.pl-status[data-error=true]{color:#164f68}.pl-pill{display:inline-block;padding:4px 10px;border-radius:50px;border:1px solid #597987;font-size:.85em}@media(max-width:520px){.pl-application dl{grid-template-columns:1fr;gap:3px}.pl-application dt{margin-top:10px}}
+#pl-login[hidden],#pl-dashboard[hidden]{display:none!important}.pl-panel{max-width:1050px;margin:24px auto;padding:clamp(20px,4vw,38px)}#pl-login{max-width:530px}#pl-login-form{display:grid;gap:16px}#pl-login-form label{display:grid;gap:8px}#pl-login-form input{width:100%;padding:13px;border-radius:12px;border:1px solid #9baa95;background:#e5eae3;color:#ffffff}.pl-head,.pl-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.pl-application{padding:22px;margin:18px 0;border:1px solid #acbba6;border-radius:16px;background:rgba(60,34,80,.24)}.pl-application h3{margin:0 0 10px}.pl-application dl{display:grid;grid-template-columns:minmax(110px,180px) 1fr;gap:9px 16px;overflow-wrap:anywhere}.pl-application dt{opacity:.75}.pl-application dd{margin:0;white-space:pre-wrap}.pl-application .pl-actions{justify-content:flex-start}.pl-status{min-height:1.5em}.pl-status[data-error=true]{color:#355826}.pl-pill{display:inline-block;padding:4px 10px;border-radius:50px;border:1px solid #6a7f61;font-size:.85em}@media(max-width:520px){.pl-application dl{grid-template-columns:1fr;gap:3px}.pl-application dt{margin-top:10px}}
 /* Interne Leitungsnotizen */
-.pl-notes{margin:18px 0 20px;padding:18px;border:1px solid #a1b7c0;border-radius:14px;background:rgba(24,13,35,.42)}
-.pl-notes-label{display:grid;gap:10px;font-weight:600;color:#224655}
-.pl-notes textarea{display:block;width:100%;box-sizing:border-box;resize:vertical;min-height:110px;padding:13px;border:1px solid #90a6af;border-radius:12px;background:#e1e9ec;color:#ffffff;font:inherit;line-height:1.5}
-.pl-notes textarea:focus{outline:2px solid #487182;outline-offset:2px}
+.pl-notes{margin:18px 0 20px;padding:18px;border:1px solid #acbba6;border-radius:14px;background:rgba(24,13,35,.42)}
+.pl-notes-label{display:grid;gap:10px;font-weight:600;color:#354c2b}
+.pl-notes textarea{display:block;width:100%;box-sizing:border-box;resize:vertical;min-height:110px;padding:13px;border:1px solid #9baa95;border-radius:12px;background:#e5eae3;color:#ffffff;font:inherit;line-height:1.5}
+.pl-notes textarea:focus{outline:2px solid #5d7852;outline-offset:2px}
 .pl-notes .pl-actions{justify-content:flex-start;margin-top:12px}
-.pl-note-status[data-error=true]{color:#164f68}
+.pl-note-status[data-error=true]{color:#355826}
 
-#pl-owner-form[hidden]{display:none!important}#pl-owner-form{margin:16px 0;padding:18px;border:1px solid #a1b7c0;border-radius:14px}#pl-owner-form label{display:grid;gap:8px}#pl-owner-code{padding:12px;background:#e1e9ec;color:white;border:1px solid #90a6af;border-radius:10px}
+#pl-owner-form[hidden]{display:none!important}#pl-owner-form{margin:16px 0;padding:18px;border:1px solid #acbba6;border-radius:14px}#pl-owner-form label{display:grid;gap:8px}#pl-owner-code{padding:12px;background:#e5eae3;color:white;border:1px solid #9baa95;border-radius:10px}
 
 /* Leitungszentrale und sortierte Bewerbungsübersicht */
 #leader-gate[hidden],#leader-hub[hidden]{display:none!important}
@@ -15,34 +15,37 @@
 .pl-hub .topic-grid{margin:24px auto;max-width:540px}
 .pl-hub .ghost{margin-top:20px}
 .pl-toolbar{margin:24px 0 14px;display:grid;gap:16px}
-.pl-search-label{display:grid;gap:8px;color:#2b4550}
-.pl-search-label input{width:100%;padding:13px 15px;border-radius:12px;border:1px solid #90a6af;background:#e1e9ec;color:#ffffff;font:inherit}
+.pl-search-label{display:grid;gap:8px;color:#384a31}
+.pl-search-label input{width:100%;padding:13px 15px;border-radius:12px;border:1px solid #9baa95;background:#e5eae3;color:#ffffff;font:inherit}
 .pl-filters{display:flex;flex-wrap:wrap;gap:8px}
-.pl-filter{cursor:pointer;border:1px solid #9aafb7;background:rgba(65,39,82,.45);color:#254553;border-radius:30px;padding:9px 13px;font:inherit}
+.pl-filter{cursor:pointer;border:1px solid #a5b29f;background:rgba(65,39,82,.45);color:#364b2d;border-radius:30px;padding:9px 13px;font:inherit}
 .pl-filter span{opacity:.8;margin-left:4px}
-.pl-filter.is-active{background:#92a6af;color:white;border-color:#446979}
+.pl-filter.is-active{background:#9daa97;color:white;border-color:#57704d}
 .pl-application{padding:0;overflow:hidden}
 .pl-details{width:100%}
 .pl-summary{cursor:pointer;list-style:none;padding:20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .pl-summary::-webkit-details-marker{display:none}
 .pl-summary-title{display:grid;gap:7px;flex:1;min-width:190px}
-.pl-summary-title strong{font-size:1.16rem;color:#1d3f4e}
-.pl-summary-title small{font-size:.9rem;color:#3d525b}
-.pl-expand-label{font-size:.85rem;color:#2a5669}
+.pl-summary-title strong{font-size:1.16rem;color:#2f4526}
+.pl-summary-title small{font-size:.9rem;color:#485642}
+.pl-expand-label{font-size:.85rem;color:#415e35}
 .pl-details[open] .pl-expand-label{font-size:0}
 .pl-details[open] .pl-expand-label::after{content:'Details schließen';font-size:.85rem}
-.pl-detail-content{padding:0 20px 22px;border-top:1px solid #a1b7c0}
+.pl-detail-content{padding:0 20px 22px;border-top:1px solid #acbba6}
 .pl-fields{display:grid;grid-template-columns:minmax(120px,190px) minmax(0,1fr);gap:10px 18px;overflow-wrap:anywhere}
-.pl-fields dt{color:#4d6068}.pl-fields dd{margin:0;white-space:pre-wrap}
+.pl-fields dt{color:#576352}.pl-fields dd{margin:0;white-space:pre-wrap}
 .pl-pill{white-space:nowrap}
 .pl-pill-neu{background:rgba(128,96,152,.3)}
 .pl-pill-in_bearbeitung{background:rgba(119,110,171,.3)}
-.pl-pill-angenommen{background:rgba(65,132,97,.28);border-color:#637e8a}
-.pl-pill-abgelehnt{background:rgba(157,72,91,.24);border-color:#527280}
-.pl-empty{text-align:center;padding:30px;color:#374c56}
+.pl-pill-angenommen{background:rgba(65,132,97,.28);border-color:#71836a}
+.pl-pill-abgelehnt{background:rgba(157,72,91,.24);border-color:#63785a}
+.pl-empty{text-align:center;padding:30px;color:#42513c}
 .pl-decision-actions{margin-top:20px}
 @media(max-width:560px){.pl-fields{grid-template-columns:1fr;gap:4px}.pl-fields dt{margin-top:12px}.pl-summary{padding:15px}.pl-detail-content{padding:0 15px 18px}}
 
 /* Permanentes Löschen – nur mit Owner-Berechtigung */
-.pl-delete-button{background:#b0c7d1!important;border-color:#64828e!important;color:#ffffff!important;margin-left:auto}
-.pl-delete-button:hover{background:#a0bbc6!important}
+.pl-delete-button{background:#bccbb6!important;border-color:#73876b!important;color:#ffffff!important;margin-left:auto}
+.pl-delete-button:hover{background:#aebfa7!important}
+
+/* Moss green administration */
+.pl-panel,.pl-application,.pl-notes,#pl-owner-form{background:#f1f6ec;border-color:#b5c9a8;color:#304c35}.pl-summary-title strong,.pl-summary-title small,.pl-expand-label,.pl-fields dt,.pl-notes-label,.pl-search-label,.pl-empty{color:#405a3e}.pl-detail-content{border-color:#c5d6bb}.pl-filter{background:#e3edda;border-color:#b5c9a8;color:#3b5738}.pl-filter.is-active{background:#567b50;color:white;border-color:#456742}.pl-filter:hover{filter:brightness(.95)}#pl-login-form input,.pl-notes textarea,#pl-owner-code,.pl-search-label input{background:#fff;color:#304c35;border-color:#b5c9a8}.pl-pill{border-color:#a7b99a}.pl-pill-neu{background:#e5eddd}.pl-pill-in_bearbeitung{background:#f2ead0}.pl-pill-angenommen{background:#cde4c7}.pl-pill-abgelehnt{background:#f0d7d7}.pl-delete-button{background:#a65e60!important;border-color:#88494b!important;color:white!important}.pl-delete-button:hover{background:#88494b!important}.pl-status[data-error=true],.pl-note-status[data-error=true]{color:#9c4144}
