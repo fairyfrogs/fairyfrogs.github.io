@@ -6,10 +6,11 @@
  const form=document.getElementById('magic-application');
  const send=document.getElementById('magic-send');
  const preview=document.getElementById('magic-preview');
+ const closedText=notice?.querySelector('p')?.textContent || 'Aktuell nehmen wir keine neuen Mitglieder auf.';
  const setOpen=open=>{
   window.PL_APPLICATIONS_OPEN=open;
   if(shell) shell.style.display=open?'':'none';
-  if(notice){notice.style.display=open?'none':'block';if(!open) notice.querySelector('h2').textContent='✧ Bewerbungsfach geschlossen ✧';}
+  if(notice){notice.style.display=open?'none':'block';if(!open){notice.querySelector('h2').textContent='✧ Bewerbungsfach geschlossen ✧';notice.querySelector('p').textContent=closedText;}}
   if(form) for(const el of form.querySelectorAll('input,select,textarea,button'))el.disabled=!open;
   if(send)send.disabled=!open;
   if(preview&&!open)preview.hidden=true;
